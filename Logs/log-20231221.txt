@@ -1,0 +1,103 @@
+2023-12-21T13:09:03.2995172+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-21T13:09:03.3079258+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-21T13:09:03.3373472+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-21T13:09:03.3526794+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-21T13:09:03.3577477+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-21T13:09:09.3772056+01:00 0HN023MFP755J:00000001 [INF] My home page page visited at "12:09:09 PM" (b018d107)
+2023-12-21T13:09:12.6771774+01:00 0HN023MFP755J:00000001 [INF] Executed DbCommand ("46"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-21T13:10:18.8995092+01:00 0HN023MFP755J:0000001D [INF] searching a product that contains the string: "f" (35c305b0)
+2023-12-21T13:10:19.0610618+01:00 0HN023MFP755J:0000001D [INF] Executed DbCommand ("22"ms) [Parameters=["@__searchString_0='?' (Size = 1)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"
+WHERE @__searchString_0 = '' OR instr(\"p\".\"Description\", @__searchString_0) > 0" (0723d8ff)
+2023-12-21T13:10:19.0920651+01:00 0HN023MFP755J:0000001D [WRN] no product found that contains the string: "f" (90f9a3f9)
+2023-12-21T13:10:22.3395691+01:00 0HN023MFP755J:00000025 [INF] My home page page visited at "12:10:22 PM" (b018d107)
+2023-12-21T13:10:22.4396445+01:00 0HN023MFP755J:00000025 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-21T13:20:11.8801284+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-21T13:20:11.8846692+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-21T13:20:11.8997440+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-21T13:20:11.9021296+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-21T13:20:11.9083650+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-21T13:20:12.6911781+01:00 0HN023SN0F64P:00000001 [INF] My home page page visited at "12:20:12 PM" (b018d107)
+2023-12-21T13:20:14.0524496+01:00 0HN023SN0F64P:00000001 [INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-21T13:20:29.8141613+01:00 0HN023SN0F64P:00000009 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"CATEGORIES\" AS \"c\"" (0723d8ff)
+2023-12-21T13:20:30.5318785+01:00 0HN023SN0F64P:00000011 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-21T13:20:36.3240065+01:00 0HN023SN0F64P:00000019 [INF] My home page page visited at "12:20:36 PM" (b018d107)
+2023-12-21T13:20:36.3274931+01:00 0HN023SN0F64P:00000019 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-21T13:20:38.1511372+01:00 0HN023SN0F64P:00000021 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"CATEGORIES\" AS \"c\"" (0723d8ff)
+2023-12-21T13:20:46.0354907+01:00 0HN023SN0F64P:00000029 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-21T13:20:58.0683980+01:00 0HN023SN0F64P:00000031 [INF] My home page page visited at "12:20:58 PM" (b018d107)
+2023-12-21T13:20:58.0739399+01:00 0HN023SN0F64P:00000031 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-21T13:21:15.2273523+01:00 0HN023SN0F64P:00000039 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-21T13:21:17.2991292+01:00 0HN023SN0F64P:00000041 [INF] My home page page visited at "12:21:17 PM" (b018d107)
+2023-12-21T13:21:17.3067424+01:00 0HN023SN0F64P:00000041 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-21T13:21:19.2748282+01:00 0HN023SN0F64P:00000049 [INF] Executed DbCommand ("18"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\"
+FROM \"PRODUITS\" AS \"p\"
+WHERE \"p\".\"ProduitID\" = @__p_0
+LIMIT 1" (0723d8ff)
+2023-12-21T13:21:19.2806868+01:00 0HN023SN0F64P:00000049 [INF] Product added to card at: "12:21:19 PM" (c9864ab4)
+2023-12-21T13:21:19.7012845+01:00 0HN023SN0F64P:0000004B [INF] My home page page visited at "12:21:19 PM" (b018d107)
+2023-12-21T13:21:19.7073080+01:00 0HN023SN0F64P:0000004B [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-21T13:21:23.7960482+01:00 0HN023SN0F64P:0000005D [INF] My home page page visited at "12:21:23 PM" (b018d107)
+2023-12-21T13:21:23.8033957+01:00 0HN023SN0F64P:0000005D [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-21T13:50:09.0088272+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-21T13:50:09.0149719+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-21T13:50:09.0333615+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-21T13:50:09.0364656+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-21T13:50:09.0386487+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-21T13:50:10.2055971+01:00 0HN024DEMI7KD:00000001 [INF] My home page page visited at "12:50:10 PM" (b018d107)
+2023-12-21T13:50:11.9815421+01:00 0HN024DEMI7KD:00000001 [INF] Executed DbCommand ("17"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-21T13:50:17.9872899+01:00 0HN024DEMI7KD:00000009 [INF] searching a product that contains the string: "z" (35c305b0)
+2023-12-21T13:50:18.1822128+01:00 0HN024DEMI7KD:00000009 [INF] Executed DbCommand ("22"ms) [Parameters=["@__searchString_0='?' (Size = 1)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"
+WHERE @__searchString_0 = '' OR instr(\"p\".\"Description\", @__searchString_0) > 0" (0723d8ff)
+2023-12-21T13:50:18.2128711+01:00 0HN024DEMI7KD:00000009 [WRN] no product found that contains the string: "z" (90f9a3f9)
+2023-12-21T13:50:30.1677689+01:00 0HN024DEMI7KD:00000011 [INF] My home page page visited at "12:50:30 PM" (b018d107)
+2023-12-21T13:50:30.3170259+01:00 0HN024DEMI7KD:00000011 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)

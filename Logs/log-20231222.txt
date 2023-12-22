@@ -1,0 +1,557 @@
+2023-12-22T10:39:44.9666279+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T10:39:45.0121782+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T10:39:45.0752131+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T10:39:45.0798508+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T10:39:45.0817299+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T10:39:46.5114020+01:00 0HN02Q7N87SRI:00000001 [INF] My home page page visited at "9:39:46 AM" (b018d107)
+2023-12-22T10:39:52.7305001+01:00 0HN02Q7N87SRI:00000001 [INF] Executed DbCommand ("25"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T10:41:12.3923469+01:00 0HN02Q7N87SRI:00000009 [INF] Executed DbCommand ("11"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\"
+FROM \"PRODUITS\" AS \"p\"
+WHERE \"p\".\"ProduitID\" = @__p_0
+LIMIT 1" (0723d8ff)
+2023-12-22T10:41:12.3959675+01:00 0HN02Q7N87SRI:00000009 [INF] Product added to card at: "9:41:12 AM" (c9864ab4)
+2023-12-22T10:41:12.6548102+01:00 0HN02Q7N87SRI:0000000B [INF] My home page page visited at "9:41:12 AM" (b018d107)
+2023-12-22T10:41:12.7032258+01:00 0HN02Q7N87SRI:0000000B [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T10:49:53.7645933+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T10:49:53.7716461+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T10:49:53.7897895+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T10:49:53.7999233+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T10:49:53.8042096+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T10:49:54.3729387+01:00 0HN02QDCJ77DI:00000001 [INF] My home page page visited at "9:49:54 AM" (b018d107)
+2023-12-22T10:49:56.0463647+01:00 0HN02QDCJ77DI:00000001 [INF] Executed DbCommand ("17"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T10:50:34.6277118+01:00 0HN02QDCJ77DI:00000019 [WRN] User password validation failed: "PasswordRequiresNonAlphanumeric;PasswordRequiresLower;PasswordRequiresUpper". (95aa5396)
+2023-12-22T10:50:50.0554406+01:00 0HN02QDCJ77DI:00000025 [WRN] User password validation failed: "PasswordRequiresNonAlphanumeric". (95aa5396)
+2023-12-22T10:51:23.4328572+01:00 0HN02QDCJ77DI:00000031 [INF] Executed DbCommand ("7"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 20)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"Id\", \"a\".\"AccessFailedCount\", \"a\".\"ConcurrencyStamp\", \"a\".\"Email\", \"a\".\"EmailConfirmed\", \"a\".\"LockoutEnabled\", \"a\".\"LockoutEnd\", \"a\".\"NormalizedEmail\", \"a\".\"NormalizedUserName\", \"a\".\"PasswordHash\", \"a\".\"PhoneNumber\", \"a\".\"PhoneNumberConfirmed\", \"a\".\"SecurityStamp\", \"a\".\"TwoFactorEnabled\", \"a\".\"UserName\"
+FROM \"AspNetUsers\" AS \"a\"
+WHERE \"a\".\"NormalizedUserName\" = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2023-12-22T10:51:23.6500793+01:00 0HN02QDCJ77DI:00000031 [INF] Executed DbCommand ("16"ms) [Parameters=["@p0='?' (Size = 36), @p1='?' (DbType = Int32), @p2='?' (Size = 36), @p3='?' (Size = 20), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 20), @p8='?' (Size = 20), @p9='?' (Size = 84), @p10='?', @p11='?' (DbType = Boolean), @p12='?' (Size = 32), @p13='?' (DbType = Boolean), @p14='?' (Size = 20)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"AspNetUsers\" (\"Id\", \"AccessFailedCount\", \"ConcurrencyStamp\", \"Email\", \"EmailConfirmed\", \"LockoutEnabled\", \"LockoutEnd\", \"NormalizedEmail\", \"NormalizedUserName\", \"PasswordHash\", \"PhoneNumber\", \"PhoneNumberConfirmed\", \"SecurityStamp\", \"TwoFactorEnabled\", \"UserName\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);" (0723d8ff)
+2023-12-22T10:51:23.6666460+01:00 0HN02QDCJ77DI:00000031 [INF] User created a new account with password. (693a7015)
+2023-12-22T10:51:23.7541061+01:00 0HN02QDCJ77DI:00000033 [INF] Executed DbCommand ("1"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 20)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"Id\", \"a\".\"AccessFailedCount\", \"a\".\"ConcurrencyStamp\", \"a\".\"Email\", \"a\".\"EmailConfirmed\", \"a\".\"LockoutEnabled\", \"a\".\"LockoutEnd\", \"a\".\"NormalizedEmail\", \"a\".\"NormalizedUserName\", \"a\".\"PasswordHash\", \"a\".\"PhoneNumber\", \"a\".\"PhoneNumberConfirmed\", \"a\".\"SecurityStamp\", \"a\".\"TwoFactorEnabled\", \"a\".\"UserName\"
+FROM \"AspNetUsers\" AS \"a\"
+WHERE \"a\".\"NormalizedEmail\" = @__normalizedEmail_0
+LIMIT 2" (0723d8ff)
+2023-12-22T10:52:01.4174119+01:00 0HN02QDCJ77DI:0000004B [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 20)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"Id\", \"a\".\"AccessFailedCount\", \"a\".\"ConcurrencyStamp\", \"a\".\"Email\", \"a\".\"EmailConfirmed\", \"a\".\"LockoutEnabled\", \"a\".\"LockoutEnd\", \"a\".\"NormalizedEmail\", \"a\".\"NormalizedUserName\", \"a\".\"PasswordHash\", \"a\".\"PhoneNumber\", \"a\".\"PhoneNumberConfirmed\", \"a\".\"SecurityStamp\", \"a\".\"TwoFactorEnabled\", \"a\".\"UserName\"
+FROM \"AspNetUsers\" AS \"a\"
+WHERE \"a\".\"NormalizedUserName\" = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2023-12-22T10:52:01.4320368+01:00 0HN02QDCJ77DI:0000004B [WRN] User cannot sign in without a confirmed account. (2e7ccbd9)
+2023-12-22T10:52:11.7262846+01:00 0HN02QDCJ77DI:0000005D [INF] Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (Size = 36)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"Id\", \"a\".\"AccessFailedCount\", \"a\".\"ConcurrencyStamp\", \"a\".\"Email\", \"a\".\"EmailConfirmed\", \"a\".\"LockoutEnabled\", \"a\".\"LockoutEnd\", \"a\".\"NormalizedEmail\", \"a\".\"NormalizedUserName\", \"a\".\"PasswordHash\", \"a\".\"PhoneNumber\", \"a\".\"PhoneNumberConfirmed\", \"a\".\"SecurityStamp\", \"a\".\"TwoFactorEnabled\", \"a\".\"UserName\"
+FROM \"AspNetUsers\" AS \"a\"
+WHERE \"a\".\"Id\" = @__p_0
+LIMIT 1" (0723d8ff)
+2023-12-22T10:52:11.7418404+01:00 0HN02QDCJ77DI:0000005D [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 20)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"Id\", \"a\".\"AccessFailedCount\", \"a\".\"ConcurrencyStamp\", \"a\".\"Email\", \"a\".\"EmailConfirmed\", \"a\".\"LockoutEnabled\", \"a\".\"LockoutEnd\", \"a\".\"NormalizedEmail\", \"a\".\"NormalizedUserName\", \"a\".\"PasswordHash\", \"a\".\"PhoneNumber\", \"a\".\"PhoneNumberConfirmed\", \"a\".\"SecurityStamp\", \"a\".\"TwoFactorEnabled\", \"a\".\"UserName\"
+FROM \"AspNetUsers\" AS \"a\"
+WHERE \"a\".\"NormalizedUserName\" = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2023-12-22T10:52:11.7578740+01:00 0HN02QDCJ77DI:0000005D [INF] Executed DbCommand ("1"ms) [Parameters=["@p14='?' (Size = 36), @p0='?' (DbType = Int32), @p1='?' (Size = 36), @p15='?' (Size = 36), @p2='?' (Size = 20), @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTimeOffset), @p6='?' (Size = 20), @p7='?' (Size = 20), @p8='?' (Size = 84), @p9='?', @p10='?' (DbType = Boolean), @p11='?' (Size = 32), @p12='?' (DbType = Boolean), @p13='?' (Size = 20)"], CommandType='Text', CommandTimeout='30']"
+""UPDATE \"AspNetUsers\" SET \"AccessFailedCount\" = @p0, \"ConcurrencyStamp\" = @p1, \"Email\" = @p2, \"EmailConfirmed\" = @p3, \"LockoutEnabled\" = @p4, \"LockoutEnd\" = @p5, \"NormalizedEmail\" = @p6, \"NormalizedUserName\" = @p7, \"PasswordHash\" = @p8, \"PhoneNumber\" = @p9, \"PhoneNumberConfirmed\" = @p10, \"SecurityStamp\" = @p11, \"TwoFactorEnabled\" = @p12, \"UserName\" = @p13
+WHERE \"Id\" = @p14 AND \"ConcurrencyStamp\" = @p15
+RETURNING 1;" (0723d8ff)
+2023-12-22T10:52:33.3847478+01:00 0HN02QDCJ77DI:00000079 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 20)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"Id\", \"a\".\"AccessFailedCount\", \"a\".\"ConcurrencyStamp\", \"a\".\"Email\", \"a\".\"EmailConfirmed\", \"a\".\"LockoutEnabled\", \"a\".\"LockoutEnd\", \"a\".\"NormalizedEmail\", \"a\".\"NormalizedUserName\", \"a\".\"PasswordHash\", \"a\".\"PhoneNumber\", \"a\".\"PhoneNumberConfirmed\", \"a\".\"SecurityStamp\", \"a\".\"TwoFactorEnabled\", \"a\".\"UserName\"
+FROM \"AspNetUsers\" AS \"a\"
+WHERE \"a\".\"NormalizedUserName\" = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2023-12-22T10:52:33.4370901+01:00 0HN02QDCJ77DI:00000079 [INF] Executed DbCommand ("0"ms) [Parameters=["@__user_Id_0='?' (Size = 36)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"Id\", \"a\".\"ClaimType\", \"a\".\"ClaimValue\", \"a\".\"UserId\"
+FROM \"AspNetUserClaims\" AS \"a\"
+WHERE \"a\".\"UserId\" = @__user_Id_0" (0723d8ff)
+2023-12-22T10:52:33.4460242+01:00 0HN02QDCJ77DI:00000079 [INF] User logged in. (fdce0db4)
+2023-12-22T10:52:33.4598016+01:00 0HN02QDCJ77DI:0000007B [INF] My home page page visited at "9:52:33 AM" (b018d107)
+2023-12-22T10:52:33.4653781+01:00 0HN02QDCJ77DI:0000007B [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T10:53:38.3318009+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T10:53:38.3371481+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T10:53:38.3521371+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T10:53:38.3605845+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T10:53:38.3649468+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T10:53:39.2272845+01:00 0HN02QFFJLATO:00000001 [INF] My home page page visited at "9:53:39 AM" (b018d107)
+2023-12-22T10:53:40.8258682+01:00 0HN02QFFJLATO:00000001 [INF] Executed DbCommand ("16"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T10:55:10.9710040+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T10:55:10.9765584+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T10:55:10.9900640+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T10:55:11.0039611+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T10:55:11.0057804+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T10:55:11.9788291+01:00 0HN02QGB8327D:00000001 [INF] My home page page visited at "9:55:11 AM" (b018d107)
+2023-12-22T10:55:13.5869947+01:00 0HN02QGB8327D:00000001 [INF] Executed DbCommand ("18"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T10:55:15.9646718+01:00 0HN02QGB8327D:00000009 [INF] Executed DbCommand ("5"ms) [Parameters=["@__p_0='?' (Size = 36)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"Id\", \"a\".\"AccessFailedCount\", \"a\".\"ConcurrencyStamp\", \"a\".\"Email\", \"a\".\"EmailConfirmed\", \"a\".\"LockoutEnabled\", \"a\".\"LockoutEnd\", \"a\".\"NormalizedEmail\", \"a\".\"NormalizedUserName\", \"a\".\"PasswordHash\", \"a\".\"PhoneNumber\", \"a\".\"PhoneNumberConfirmed\", \"a\".\"SecurityStamp\", \"a\".\"TwoFactorEnabled\", \"a\".\"UserName\"
+FROM \"AspNetUsers\" AS \"a\"
+WHERE \"a\".\"Id\" = @__p_0
+LIMIT 1" (0723d8ff)
+2023-12-22T10:56:47.6131497+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T10:56:47.6187455+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T10:56:47.6331946+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T10:56:47.6367269+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T10:56:47.6446226+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T10:56:48.6793642+01:00 0HN02QH820JNM:00000001 [INF] My home page page visited at "9:56:48 AM" (b018d107)
+2023-12-22T10:56:50.1662210+01:00 0HN02QH820JNM:00000001 [INF] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T10:56:59.6355091+01:00 0HN02QH820JNM:00000009 [INF] Executed DbCommand ("19"ms) [Parameters=["@__p_0='?' (Size = 36)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"Id\", \"a\".\"AccessFailedCount\", \"a\".\"ConcurrencyStamp\", \"a\".\"Email\", \"a\".\"EmailConfirmed\", \"a\".\"LockoutEnabled\", \"a\".\"LockoutEnd\", \"a\".\"NormalizedEmail\", \"a\".\"NormalizedUserName\", \"a\".\"PasswordHash\", \"a\".\"PhoneNumber\", \"a\".\"PhoneNumberConfirmed\", \"a\".\"SecurityStamp\", \"a\".\"TwoFactorEnabled\", \"a\".\"UserName\"
+FROM \"AspNetUsers\" AS \"a\"
+WHERE \"a\".\"Id\" = @__p_0
+LIMIT 1" (0723d8ff)
+2023-12-22T10:58:30.7097407+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T10:58:30.7157210+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T10:58:30.7319075+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T10:58:30.7355331+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T10:58:30.7442466+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T10:58:31.6766183+01:00 0HN02QI6NKUGL:00000001 [INF] My home page page visited at "9:58:31 AM" (b018d107)
+2023-12-22T10:58:33.2254464+01:00 0HN02QI6NKUGL:00000001 [INF] Executed DbCommand ("15"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T10:59:06.5132211+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T10:59:06.5189495+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T10:59:06.5327537+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T10:59:06.5353350+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T10:59:06.5421426+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T10:59:07.5739355+01:00 0HN02QIHEKSGQ:00000001 [INF] My home page page visited at "9:59:07 AM" (b018d107)
+2023-12-22T10:59:09.2401573+01:00 0HN02QIHEKSGQ:00000001 [INF] Executed DbCommand ("17"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T10:59:16.6148179+01:00 0HN02QIHEKSGQ:00000009 [INF] User logged out. (f9c27106)
+2023-12-22T10:59:16.6322939+01:00 0HN02QIHEKSGQ:0000000B [INF] My home page page visited at "9:59:16 AM" (b018d107)
+2023-12-22T10:59:16.6468824+01:00 0HN02QIHEKSGQ:0000000B [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:00:19.0024653+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T11:00:19.0087238+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T11:00:19.0227308+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T11:00:19.0251036+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T11:00:19.0265702+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T11:00:19.8193097+01:00 0HN02QJ6VQ11F:00000001 [INF] My home page page visited at "10:00:19 AM" (b018d107)
+2023-12-22T11:00:21.2592484+01:00 0HN02QJ6VQ11F:00000001 [INF] Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:00:55.3635378+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T11:00:55.3696707+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T11:00:55.3844030+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T11:00:55.3870368+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T11:00:55.3926122+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T11:00:56.2690178+01:00 0HN02QJHR3BSF:00000001 [INF] My home page page visited at "10:00:56 AM" (b018d107)
+2023-12-22T11:00:57.8683413+01:00 0HN02QJHR3BSF:00000001 [INF] Executed DbCommand ("20"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:01:04.7452062+01:00 0HN02QJHR3BSF:00000017 [INF] My home page page visited at "10:01:04 AM" (b018d107)
+2023-12-22T11:01:04.7608414+01:00 0HN02QJHR3BSF:00000017 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:04:04.2417240+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T11:04:04.2474393+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T11:04:04.2638719+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T11:04:04.2674976+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T11:04:04.2751093+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T11:04:05.2581545+01:00 0HN02QLA5RVRM:00000001 [INF] My home page page visited at "10:04:05 AM" (b018d107)
+2023-12-22T11:04:06.7632905+01:00 0HN02QLA5RVRM:00000001 [INF] Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:04:57.8889209+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T11:04:57.8954325+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T11:04:57.9161049+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T11:04:57.9469139+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T11:04:57.9557309+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T11:04:58.6010064+01:00 0HN02QLQ1F1FL:00000001 [INF] My home page page visited at "10:04:58 AM" (b018d107)
+2023-12-22T11:05:04.8856766+01:00 0HN02QLQ1F1FL:00000001 [INF] Executed DbCommand ("38"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:06:26.7335345+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T11:06:26.7388022+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T11:06:26.7544729+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T11:06:26.7581015+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T11:06:26.7596719+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T11:06:27.3017015+01:00 0HN02QMKGR339:00000001 [INF] My home page page visited at "10:06:27 AM" (b018d107)
+2023-12-22T11:06:28.7879590+01:00 0HN02QMKGR339:00000001 [INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:08:06.9084217+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T11:08:06.9158658+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T11:08:06.9342760+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T11:08:06.9470782+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T11:08:06.9545951+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T11:08:07.7115596+01:00 0HN02QNICPTIT:00000001 [INF] My home page page visited at "10:08:07 AM" (b018d107)
+2023-12-22T11:08:09.2464096+01:00 0HN02QNICPTIT:00000001 [INF] Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:10:55.7332975+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T11:10:55.7386398+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T11:10:55.7522468+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T11:10:55.7588211+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T11:10:55.7641164+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T11:10:56.5999919+01:00 0HN02QP4OHUSG:00000001 [INF] My home page page visited at "10:10:56 AM" (b018d107)
+2023-12-22T11:11:04.7558192+01:00 0HN02QP4OHUSG:00000001 [INF] Executed DbCommand ("35"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:12:23.9871142+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T11:12:23.9921931+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T11:12:24.0071422+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T11:12:24.0186766+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T11:12:24.0202454+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T11:12:24.9105169+01:00 0HN02QPV2Q6TB:00000001 [INF] My home page page visited at "10:12:24 AM" (b018d107)
+2023-12-22T11:12:32.7358350+01:00 0HN02QPV2Q6TB:00000001 [INF] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:14:02.0653255+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T11:14:02.0705546+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T11:14:02.0849222+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T11:14:02.0871728+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T11:14:02.0901994+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T11:14:02.7711842+01:00 0HN02QQS7TM0I:00000001 [INF] My home page page visited at "10:14:02 AM" (b018d107)
+2023-12-22T11:14:04.3582983+01:00 0HN02QQS7TM0I:00000001 [INF] Executed DbCommand ("30"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:14:33.4361677+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T11:14:33.4414844+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T11:14:33.4553712+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T11:14:33.4720383+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T11:14:33.4738743+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T11:14:34.0820646+01:00 0HN02QR5IU53V:00000001 [INF] My home page page visited at "10:14:34 AM" (b018d107)
+2023-12-22T11:14:35.4562254+01:00 0HN02QR5IU53V:00000001 [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:32:45.5893561+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T11:32:45.5950291+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T11:32:45.6101614+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T11:32:45.6128238+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T11:32:45.6144116+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T11:32:50.0058175+01:00 0HN02R5B4FERB:00000001 [INF] Home page visited at "10:32:49 AM" (1cc64ba5)
+2023-12-22T11:32:54.6489104+01:00 0HN02R5B4FERB:00000001 [INF] Executed DbCommand ("44"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:33:05.0199270+01:00 0HN02R5B4FERB:00000017 [INF] Executed DbCommand ("18"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\"
+FROM \"PRODUITS\" AS \"p\"
+WHERE \"p\".\"ProduitID\" = @__p_0
+LIMIT 1" (0723d8ff)
+2023-12-22T11:33:05.0278329+01:00 0HN02R5B4FERB:00000017 [INF] Product added to cart at: "10:33:05 AM" (1d880e34)
+2023-12-22T11:33:25.7575848+01:00 0HN02R5B4FERB:0000003F [INF] Executed DbCommand ("5"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 20)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"Id\", \"a\".\"AccessFailedCount\", \"a\".\"ConcurrencyStamp\", \"a\".\"Email\", \"a\".\"EmailConfirmed\", \"a\".\"LockoutEnabled\", \"a\".\"LockoutEnd\", \"a\".\"NormalizedEmail\", \"a\".\"NormalizedUserName\", \"a\".\"PasswordHash\", \"a\".\"PhoneNumber\", \"a\".\"PhoneNumberConfirmed\", \"a\".\"SecurityStamp\", \"a\".\"TwoFactorEnabled\", \"a\".\"UserName\"
+FROM \"AspNetUsers\" AS \"a\"
+WHERE \"a\".\"NormalizedUserName\" = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2023-12-22T11:33:26.1060061+01:00 0HN02R5B4FERB:0000003F [INF] Executed DbCommand ("0"ms) [Parameters=["@__user_Id_0='?' (Size = 36)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"Id\", \"a\".\"ClaimType\", \"a\".\"ClaimValue\", \"a\".\"UserId\"
+FROM \"AspNetUserClaims\" AS \"a\"
+WHERE \"a\".\"UserId\" = @__user_Id_0" (0723d8ff)
+2023-12-22T11:33:26.1183109+01:00 0HN02R5B4FERB:0000003F [INF] User logged in. (fdce0db4)
+2023-12-22T11:33:26.1554078+01:00 0HN02R5B4FERB:00000041 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:33:41.8670922+01:00 0HN02R5B4FERB:00000049 [INF] User logged out. (f9c27106)
+2023-12-22T11:33:49.4712652+01:00 0HN02R5B4FERB:00000053 [INF] Searching a product that contains the string: "gamer" (64322ce3)
+2023-12-22T11:33:49.5267476+01:00 0HN02R5B4FERB:00000053 [INF] Executed DbCommand ("2"ms) [Parameters=["@__searchString_0='?' (Size = 5)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"
+WHERE @__searchString_0 = '' OR instr(\"p\".\"Description\", @__searchString_0) > 0" (0723d8ff)
+2023-12-22T11:34:37.2037332+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T11:34:37.2090060+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T11:34:37.2273928+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T11:34:37.2412970+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T11:34:37.2431862+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T11:34:38.2189638+01:00 0HN02R6CEF23P:00000001 [INF] Home page visited at "10:34:38 AM" (1cc64ba5)
+2023-12-22T11:34:39.6331276+01:00 0HN02R6CEF23P:00000001 [INF] Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:38:47.9884648+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T11:38:47.9939515+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T11:38:48.0111594+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T11:38:48.0143768+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T11:38:48.0233767+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T11:38:48.8279984+01:00 0HN02R8N50ILS:00000001 [INF] Home page visited at "10:38:48 AM" (1cc64ba5)
+2023-12-22T11:38:50.2110824+01:00 0HN02R8N50ILS:00000001 [INF] Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:39:13.8740610+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T11:39:13.8798122+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T11:39:13.8974516+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T11:39:13.9080095+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T11:39:13.9136008+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T11:39:14.7063437+01:00 0HN02R8UR87DH:00000001 [INF] Home page visited at "10:39:14 AM" (1cc64ba5)
+2023-12-22T11:39:16.0711884+01:00 0HN02R8UR87DH:00000001 [INF] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:41:50.0567359+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T11:41:50.0724437+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T11:41:50.0879194+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T11:41:50.0909132+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T11:41:50.0937599+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T11:41:50.6389858+01:00 0HN02RADABUES:00000001 [INF] Home page visited at "10:41:50 AM" (1cc64ba5)
+2023-12-22T11:41:52.1857874+01:00 0HN02RADABUES:00000001 [INF] Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:42:19.5554447+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T11:42:19.5604045+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T11:42:19.5743310+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T11:42:19.5766956+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T11:42:19.5794737+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T11:42:20.2011448+01:00 0HN02RAM3OHNM:00000001 [INF] Home page visited at "10:42:20 AM" (1cc64ba5)
+2023-12-22T11:42:21.6987593+01:00 0HN02RAM3OHNM:00000001 [INF] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:44:04.2307058+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T11:44:04.2392422+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T11:44:04.2647599+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T11:44:04.2689783+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T11:44:04.2712217+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T11:44:04.8900629+01:00 0HN02RBLATOSN:00000001 [INF] Home page visited at "10:44:04 AM" (1cc64ba5)
+2023-12-22T11:44:06.3645804+01:00 0HN02RBLATOSN:00000001 [INF] Executed DbCommand ("16"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:46:53.7441552+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T11:46:53.7497322+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T11:46:53.7660550+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T11:46:53.7689477+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T11:46:53.7712658+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T11:46:54.3511831+01:00 0HN02RD7QLB3N:00000001 [INF] Home page visited at "10:46:54 AM" (1cc64ba5)
+2023-12-22T11:46:55.6849633+01:00 0HN02RD7QLB3N:00000001 [INF] Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:47:36.8738499+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T11:47:36.8798511+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T11:47:36.8945140+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T11:47:36.8975416+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T11:47:36.9005998+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T11:47:37.4304243+01:00 0HN02RDKLUHK9:00000001 [INF] Home page visited at "10:47:37 AM" (1cc64ba5)
+2023-12-22T11:47:38.8967598+01:00 0HN02RDKLUHK9:00000001 [INF] Executed DbCommand ("15"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:48:10.0000937+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T11:48:10.0055838+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T11:48:10.0179111+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T11:48:10.0199940+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T11:48:10.0213744+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T11:48:10.8831564+01:00 0HN02RDUIDDLH:00000001 [INF] Home page visited at "10:48:10 AM" (1cc64ba5)
+2023-12-22T11:48:12.6495017+01:00 0HN02RDUIDDLH:00000001 [INF] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:48:41.9494560+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T11:48:41.9562467+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T11:48:41.9862303+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T11:48:41.9915816+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T11:48:41.9929509+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T11:48:42.9666756+01:00 0HN02RE86LH8N:00000001 [INF] Home page visited at "10:48:42 AM" (1cc64ba5)
+2023-12-22T11:48:44.3615726+01:00 0HN02RE86LH8N:00000001 [INF] Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:49:13.9818548+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T11:49:13.9866017+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T11:49:14.0000704+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T11:49:14.0026046+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T11:49:14.0040808+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T11:49:15.0395115+01:00 0HN02REHO8TLF:00000001 [INF] Home page visited at "10:49:15 AM" (1cc64ba5)
+2023-12-22T11:49:16.5961517+01:00 0HN02REHO8TLF:00000001 [INF] Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:49:29.8670324+01:00 0HN02REHO8TLF:00000009 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"CATEGORIES\" AS \"c\"" (0723d8ff)
+2023-12-22T11:53:16.1364882+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T11:53:16.1423195+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T11:53:16.1572560+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T11:53:16.1600761+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T11:53:16.1636104+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T11:53:17.2859411+01:00 0HN02RGPT2A4T:00000001 [INF] Home page visited at "10:53:17 AM" (1cc64ba5)
+2023-12-22T11:53:18.9087060+01:00 0HN02RGPT2A4T:00000001 [INF] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:53:21.1722957+01:00 0HN02RGPT2A4T:00000009 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"CATEGORIES\" AS \"c\"" (0723d8ff)
+2023-12-22T11:53:37.1880980+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T11:53:37.1941359+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T11:53:37.2136496+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T11:53:37.2165048+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T11:53:37.2204768+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T11:53:37.8244942+01:00 0HN02RH027OTU:00000001 [INF] Home page visited at "10:53:37 AM" (1cc64ba5)
+2023-12-22T11:53:39.3677403+01:00 0HN02RH027OTU:00000001 [INF] Executed DbCommand ("15"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:53:44.7297838+01:00 0HN02RH027OTU:00000009 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"CATEGORIES\" AS \"c\"" (0723d8ff)
+2023-12-22T11:54:10.5786702+01:00 0HN02RH027OTU:0000001D [INF] Executed DbCommand ("18"ms) [Parameters=["@p0='?' (Size = 6)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"CATEGORIES\" (\"NomCategorie\")
+VALUES (@p0)
+RETURNING \"CategorieID\";" (0723d8ff)
+2023-12-22T11:54:10.7028000+01:00 0HN02RH027OTU:0000001F [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"CATEGORIES\" AS \"c\"" (0723d8ff)
+2023-12-22T11:54:36.8380137+01:00 0HN02RH027OTU:00000043 [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 20)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"Id\", \"a\".\"AccessFailedCount\", \"a\".\"ConcurrencyStamp\", \"a\".\"Email\", \"a\".\"EmailConfirmed\", \"a\".\"LockoutEnabled\", \"a\".\"LockoutEnd\", \"a\".\"NormalizedEmail\", \"a\".\"NormalizedUserName\", \"a\".\"PasswordHash\", \"a\".\"PhoneNumber\", \"a\".\"PhoneNumberConfirmed\", \"a\".\"SecurityStamp\", \"a\".\"TwoFactorEnabled\", \"a\".\"UserName\"
+FROM \"AspNetUsers\" AS \"a\"
+WHERE \"a\".\"NormalizedUserName\" = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2023-12-22T11:54:37.0781857+01:00 0HN02RH027OTU:00000043 [WRN] Invalid password for user. (6d284782)
+2023-12-22T11:54:37.0857199+01:00 0HN02RH027OTU:00000043 [WRN] User failed to provide the correct password. (a25e98da)
+2023-12-22T11:54:42.8624429+01:00 0HN02RH027OTU:0000004B [INF] Executed DbCommand ("0"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 20)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"Id\", \"a\".\"AccessFailedCount\", \"a\".\"ConcurrencyStamp\", \"a\".\"Email\", \"a\".\"EmailConfirmed\", \"a\".\"LockoutEnabled\", \"a\".\"LockoutEnd\", \"a\".\"NormalizedEmail\", \"a\".\"NormalizedUserName\", \"a\".\"PasswordHash\", \"a\".\"PhoneNumber\", \"a\".\"PhoneNumberConfirmed\", \"a\".\"SecurityStamp\", \"a\".\"TwoFactorEnabled\", \"a\".\"UserName\"
+FROM \"AspNetUsers\" AS \"a\"
+WHERE \"a\".\"NormalizedUserName\" = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2023-12-22T11:54:43.0008922+01:00 0HN02RH027OTU:0000004B [INF] Executed DbCommand ("0"ms) [Parameters=["@__user_Id_0='?' (Size = 36)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"Id\", \"a\".\"ClaimType\", \"a\".\"ClaimValue\", \"a\".\"UserId\"
+FROM \"AspNetUserClaims\" AS \"a\"
+WHERE \"a\".\"UserId\" = @__user_Id_0" (0723d8ff)
+2023-12-22T11:54:43.0162478+01:00 0HN02RH027OTU:0000004B [INF] User logged in. (fdce0db4)
+2023-12-22T11:54:43.0473144+01:00 0HN02RH027OTU:0000004D [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:54:51.2550025+01:00 0HN02RH027OTU:00000055 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"CATEGORIES\" AS \"c\"" (0723d8ff)
+2023-12-22T11:55:20.3967349+01:00 0HN02RH027OTU:00000065 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:55:24.0923106+01:00 0HN02RH027OTU:0000006D [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"CATEGORIES\" AS \"c\"" (0723d8ff)
+2023-12-22T11:58:41.4212223+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T11:58:41.4281472+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T11:58:41.4484946+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T11:58:41.4518674+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T11:58:41.4632572+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T11:58:42.1534896+01:00 0HN02RJQP0VOG:00000001 [INF] Home page visited at "10:58:42 AM" (1cc64ba5)
+2023-12-22T11:58:43.6440435+01:00 0HN02RJQP0VOG:00000001 [INF] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:58:51.6456675+01:00 0HN02RJQP0VOG:00000009 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T11:58:53.7836584+01:00 0HN02RJQP0VOG:00000011 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"CATEGORIES\" AS \"c\"" (0723d8ff)
+2023-12-22T11:58:56.3705390+01:00 0HN02RJQP0VOG:00000019 [INF] User logged out. (f9c27106)
+2023-12-22T11:59:00.2512368+01:00 0HN02RJQP0VOG:00000023 [INF] Executed DbCommand ("12"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\"
+FROM \"PRODUITS\" AS \"p\"
+WHERE \"p\".\"ProduitID\" = @__p_0
+LIMIT 1" (0723d8ff)
+2023-12-22T11:59:00.2562250+01:00 0HN02RJQP0VOG:00000023 [INF] Product added to cart at: "10:59:00 AM" (1d880e34)
+2023-12-22T12:16:15.9998558+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T12:16:16.0053424+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T12:16:16.0208985+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T12:16:16.0237052+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T12:16:16.0308540+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T12:16:16.6303822+01:00 0HN02RTL1RKOA:00000001 [INF] Home page visited at "11:16:16 AM" (1cc64ba5)
+2023-12-22T12:16:17.9052218+01:00 0HN02RTL1RKOA:00000001 [INF] Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T12:16:33.3848962+01:00 0HN02RTL1RKOA:00000013 [INF] Executed DbCommand ("5"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 20)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"Id\", \"a\".\"AccessFailedCount\", \"a\".\"ConcurrencyStamp\", \"a\".\"Email\", \"a\".\"EmailConfirmed\", \"a\".\"LockoutEnabled\", \"a\".\"LockoutEnd\", \"a\".\"NormalizedEmail\", \"a\".\"NormalizedUserName\", \"a\".\"PasswordHash\", \"a\".\"PhoneNumber\", \"a\".\"PhoneNumberConfirmed\", \"a\".\"SecurityStamp\", \"a\".\"TwoFactorEnabled\", \"a\".\"UserName\"
+FROM \"AspNetUsers\" AS \"a\"
+WHERE \"a\".\"NormalizedUserName\" = @__normalizedUserName_0
+LIMIT 1" (0723d8ff)
+2023-12-22T12:16:33.4816952+01:00 0HN02RTL1RKOA:00000013 [INF] Executed DbCommand ("0"ms) [Parameters=["@__user_Id_0='?' (Size = 36)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"Id\", \"a\".\"ClaimType\", \"a\".\"ClaimValue\", \"a\".\"UserId\"
+FROM \"AspNetUserClaims\" AS \"a\"
+WHERE \"a\".\"UserId\" = @__user_Id_0" (0723d8ff)
+2023-12-22T12:16:33.4872321+01:00 0HN02RTL1RKOA:00000013 [INF] User logged in. (fdce0db4)
+2023-12-22T12:16:33.5408274+01:00 0HN02RTL1RKOA:00000015 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T12:16:37.8151135+01:00 0HN02RTL1RKOA:0000001D [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"CATEGORIES\" AS \"c\"" (0723d8ff)
+2023-12-22T12:19:21.1789270+01:00 0HN02RTL1RKOC:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 15), @p2='?' (Size = 20), @p3='?' (DbType = Double), @p4='?' (Size = 9), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"PRODUITS\" (\"CategorieID\", \"Description\", \"ImagePath\", \"Prix\", \"ProduitName\", \"Quantite\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"ProduitID\";" (0723d8ff)
+2023-12-22T12:19:21.2184643+01:00 0HN02RTL1RKOC:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T12:20:01.1992079+01:00 0HN02RTL1RKOC:0000000B [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"CATEGORIES\" AS \"c\"" (0723d8ff)
+2023-12-22T12:21:02.5976642+01:00 0HN02RTL1RKOC:00000015 [INF] Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (Size = 36)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"Id\", \"a\".\"AccessFailedCount\", \"a\".\"ConcurrencyStamp\", \"a\".\"Email\", \"a\".\"EmailConfirmed\", \"a\".\"LockoutEnabled\", \"a\".\"LockoutEnd\", \"a\".\"NormalizedEmail\", \"a\".\"NormalizedUserName\", \"a\".\"PasswordHash\", \"a\".\"PhoneNumber\", \"a\".\"PhoneNumberConfirmed\", \"a\".\"SecurityStamp\", \"a\".\"TwoFactorEnabled\", \"a\".\"UserName\"
+FROM \"AspNetUsers\" AS \"a\"
+WHERE \"a\".\"Id\" = @__p_0
+LIMIT 1" (0723d8ff)
+2023-12-22T12:21:52.3592764+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-22T12:21:52.3651166+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-22T12:21:52.3793422+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-22T12:21:52.3813759+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-22T12:21:52.3843207+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-22T12:21:52.8950306+01:00 0HN02S0P8LO27:00000001 [INF] Home page visited at "11:21:52 AM" (1cc64ba5)
+2023-12-22T12:21:54.2467639+01:00 0HN02S0P8LO27:00000001 [INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-22T12:23:19.9384703+01:00 0HN02S0P8LO27:0000000B [INF] User logged out. (f9c27106)
+2023-12-22T12:24:50.9950221+01:00 0HN02S0P8LO27:00000031 [INF] Executed DbCommand ("10"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\"
+FROM \"PRODUITS\" AS \"p\"
+WHERE \"p\".\"ProduitID\" = @__p_0
+LIMIT 1" (0723d8ff)
+2023-12-22T12:24:50.9988892+01:00 0HN02S0P8LO27:00000031 [INF] Product added to cart at: "11:24:50 AM" (1d880e34)
+2023-12-22T12:24:53.5493382+01:00 0HN02S0P8LO27:0000003B [INF] Executed DbCommand ("0"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\"
+FROM \"PRODUITS\" AS \"p\"
+WHERE \"p\".\"ProduitID\" = @__p_0
+LIMIT 1" (0723d8ff)
+2023-12-22T12:24:53.5533348+01:00 0HN02S0P8LO27:0000003B [INF] Product added to cart at: "11:24:53 AM" (1d880e34)

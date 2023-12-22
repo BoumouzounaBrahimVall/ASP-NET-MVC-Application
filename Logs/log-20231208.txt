@@ -1,0 +1,33 @@
+2023-12-08T10:05:35.8841358+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-08T10:05:35.8905091+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-08T10:05:35.9054892+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-08T10:05:35.9081802+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-08T10:05:35.9099148+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-08T10:05:37.1750232+01:00 0HMVNPJBNNL1E:00000001 [INF] My home page page visited at "9:05:37 AM" (b018d107)
+2023-12-08T10:05:38.5852231+01:00 0HMVNPJBNNL1E:00000001 [INF] Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-08T10:09:03.4851423+01:00  [INF] Now listening on: "https://localhost:7204" (d826f4b8)
+2023-12-08T10:09:03.4901391+01:00  [INF] Now listening on: "http://localhost:5112" (d826f4b8)
+2023-12-08T10:09:03.5058138+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-08T10:09:03.5114268+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-08T10:09:03.5125850+01:00  [INF] Content root path: "C:\Users\S USER\source\repos\AmazonCloneMVC\" (b5d60022)
+2023-12-08T10:09:04.5760459+01:00 0HMVNPL9FTS47:00000001 [INF] My home page page visited at "9:09:04 AM" (b018d107)
+2023-12-08T10:09:05.9144510+01:00 0HMVNPL9FTS47:00000001 [INF] Executed DbCommand ("17"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"" (0723d8ff)
+2023-12-08T10:09:10.8477721+01:00 0HMVNPL9FTS47:00000009 [INF] searching a product that contains the string: "z" (35c305b0)
+2023-12-08T10:09:10.9168299+01:00 0HMVNPL9FTS47:00000009 [INF] Executed DbCommand ("9"ms) [Parameters=["@__searchString_0='?' (Size = 1)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"
+WHERE @__searchString_0 = '' OR instr(\"p\".\"Description\", @__searchString_0) > 0" (0723d8ff)
+2023-12-08T10:09:10.9308579+01:00 0HMVNPL9FTS47:00000009 [WRN] no product found that contains the string: "z" (90f9a3f9)
+2023-12-08T10:09:13.2949487+01:00 0HMVNPL9FTS47:00000011 [INF] searching a product that contains the string: "gamer" (35c305b0)
+2023-12-08T10:09:13.3417667+01:00 0HMVNPL9FTS47:00000011 [INF] Executed DbCommand ("0"ms) [Parameters=["@__searchString_0='?' (Size = 5)"], CommandType='Text', CommandTimeout='30']"
+""SELECT \"p\".\"ProduitID\", \"p\".\"CategorieID\", \"p\".\"Description\", \"p\".\"ImagePath\", \"p\".\"Prix\", \"p\".\"ProduitName\", \"p\".\"Quantite\", \"c\".\"CategorieID\", \"c\".\"NomCategorie\"
+FROM \"PRODUITS\" AS \"p\"
+INNER JOIN \"CATEGORIES\" AS \"c\" ON \"p\".\"CategorieID\" = \"c\".\"CategorieID\"
+WHERE @__searchString_0 = '' OR instr(\"p\".\"Description\", @__searchString_0) > 0" (0723d8ff)

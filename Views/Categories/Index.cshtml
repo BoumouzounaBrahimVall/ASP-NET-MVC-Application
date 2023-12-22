@@ -1,0 +1,36 @@
+﻿@model IEnumerable<AmazonCloneMVC.Models.Categorie>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+<h1>Listes Des Categories</h1>
+
+<a class="btn btn-primary" asp-action="Create">Create New</a>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.NomCategorie)
+                </th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomCategorie)
+            </td>
+           
+            <td>
+                    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.CategorieID">Edit</a>
+                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.CategorieID">Details</a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.CategorieID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

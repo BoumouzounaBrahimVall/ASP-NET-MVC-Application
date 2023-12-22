@@ -1,0 +1,189 @@
+﻿@using Microsoft.AspNetCore.Http
+@using AmazonCloneMVC.Models
+
+@inject IHttpContextAccessor Accessor
+@{
+    var val = 0;
+    if (@Accessor.HttpContext.Session.GetCartService() != null)
+    {
+        val = @Accessor.HttpContext.Session.GetCartService()._cartItems.Count();
+
+    }
+
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MonCatalogueProduit</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MonCatalogueProduit.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Open Sans", sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+            a:hover {
+                color: #ddd;
+            }
+
+        /* Header or Navbar */
+        header {
+            width: 100%;
+            background-color: #0f1111;
+        }
+
+        .navbar {
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            color: #fff;
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+
+        .nav-logo img {
+            margin-top: 10px;
+            width: 128px;
+        }
+
+
+        /* Footer */
+        .footer-title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #37475a;
+            color: #fff;
+            font-size: 0.875rem;
+            font-weight: 600;
+            height: 60px;
+        }
+
+        .footer-items {
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            margin: 0 auto;
+            background: #232f3e;
+        }
+
+            .footer-items h3 {
+                font-size: 1rem;
+                font-weight: 500;
+                color: #fff;
+                margin: 20px 0 10px 0;
+            }
+
+            .footer-items ul {
+                list-style: none;
+                margin-bottom: 20px;
+            }
+
+            .footer-items li a {
+                color: #ddd;
+                font-size: 0.875rem;
+            }
+
+                .footer-items li a:hover {
+                    text-decoration: underline;
+                }
+
+    </style>
+
+
+    <header>
+        <nav class="navbar">
+            <div class="nav-logo row py-2">
+                <a href="/" class="col px-5"><img src="~/images/amazonLogo.png" alt="logo"></a>
+                <a href="/Produits" class="nav-link col text-white"  >Produits</a>
+                <a href="/Categories" class="nav-link col text-white"  >Categories</a>
+            </div>
+            <partial name="_LoginPartial" class="col text-white" />
+
+            
+            <ul class="navbar-nav ml-auto">
+
+                <a  class="nav-link text-white text-center ml-auto mr-2 " href="Home/Cart">
+                    <span>@val</span>  <img src="~/images/shopping_cart.svg" width="24">
+                </a>
+
+            </ul>
+            
+        </nav>
+    </header>
+
+
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <footer>
+        <a href="#" class="footer-title">
+            Back to top
+        </a>
+        <div class="footer-items">
+            <ul>
+                <h3>Get to Know Us</h3>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Press Release</a></li>
+                <li><a href="#">Amazon Science</a></li>
+            </ul>
+            <ul>
+                <h3>Connect with Us</h3>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+            <ul>
+                <h3>Make Money with Us</h3>
+                <li><a href="#">Sell on Amazon</a></li>
+                <li><a href="#">Sell under Amazon Accelerator</a></li>
+                <li><a href="#">Protect and Build Your Brand</a></li>
+                <li><a href="#">Amazon Global Selling</a></li>
+                <li><a href="#">Become an Affiliate</a></li>
+                <li><a href="#">Fulfillment by Amazon</a></li>
+                <li><a href="#">Advertise Your Products</a></li>
+                <li><a href="#">Amazon Pay on Merchants</a></li>
+            </ul>
+            <ul>
+                <h3>Let Us Help You</h3>
+                <li><a href="#">COVID-19 and Amazon</a></li>
+                <li><a href="#">Your Account</a></li>
+                <li><a href="#">Return Centre</a></li>
+                <li><a href="#">100% Purchase Protection</a></li>
+                <li><a href="#">Amazon App Download</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
